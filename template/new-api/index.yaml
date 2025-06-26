@@ -30,7 +30,7 @@ kind: StatefulSet
 metadata:
   name: ${{ defaults.app_name }}
   annotations:
-    originImageName: calciumion/new-api:v0.8.3.0
+    originImageName: calciumion/new-api:v0.8.6.3
     deploy.run.claw.cloud/minReplicas: '1'
     deploy.run.claw.cloud/maxReplicas: '1'
   labels:
